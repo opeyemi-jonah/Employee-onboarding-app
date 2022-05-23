@@ -1,0 +1,58 @@
+# Model Database for employee onboarding
+
+# Entities
+
+User
+
+- Employee First Name
+
+  Employee Last Name
+  
+  Employee Email
+  
+  Employee Phone number
+
+  Employee ID Number
+
+  Employee Department
+
+  Employee Team Name
+
+  Employee Date of birth
+
+  Employment date
+
+  Office room number
+
+  LinkedIn profile
+  
+  Employee Status
+  
+
+Manager
+  - Manager First Name
+    Manager Last Name
+    Manager ID Number
+    Manager Team Name
+    
+  
+
+Department
+  - Department Name
+   
+
+Onboarding status
+  - Status
+    
+Task
+  - Task
+    Start date
+    Due date
+    Notes
+    Attachment
+    Status
+    
+
+
+
+
