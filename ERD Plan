@@ -4,31 +4,33 @@
 
 User
 
-- Employee First Name
+- First Name
 
-  Employee Last Name
+  Last Name
   
-  Employee Email
+  Email
   
-  Employee image
+  image
   
-  Employee Phone number
+  Phone number
 
   Employee ID Number
 
   Employee Department
 
-  Employee Team Name
+  Team Name
 
-  Employee Date of birth
+  Date of birth
 
   Employment date
 
-  Office room number
-
-  LinkedIn profile
+  Role id
   
+  Manager id
+ 
   Employee Status
+  
+  Task id
   
 
 Manager
