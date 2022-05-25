@@ -10,11 +10,11 @@ User
   
   Email
   
-  image
+  image_url
   
-  Phone number
+  phone_number
 
-  Employee ID Number
+  employee_id_Number
 
   Employee Department
 
@@ -34,18 +34,25 @@ User
   
 
 Manager
-  - Manager First Name
-    Manager Last Name
+  - manager_first_name
+    manager_last_name
+    user_id
+    role_id
+    
+    
   
 Department
-  - Department Name
+  - Department_id
+    Department Name
    
 
 Onboarding status
-  - Status
+  - Status_id
+  
     
 Task
-  - Task
+  - Task_id
+    Task_title
     Start date
     Due date
     Notes
