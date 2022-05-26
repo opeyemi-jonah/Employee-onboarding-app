@@ -16,9 +16,11 @@ User
 
   employee_id_Number
 
-  Employee Department
+  department_id
 
   Team Name
+  
+  job title
 
   Date of birth
 
@@ -27,15 +29,13 @@ User
   Role id
   
   Manager id
- 
-  Employee Status
   
   Task id
   
 
 Manager
-  - manager_first_name
-    manager_last_name
+    manager_id
+    manager_title
     user_id
     role_id
     
@@ -46,9 +46,9 @@ Department
     Department Name
    
 
-Onboarding status
-  - Status_id
-  
+status
+  - status_id
+    status_title
     
 Task
   - Task_id
@@ -56,8 +56,9 @@ Task
     Start date
     Due date
     Notes
-    Attachment
-    Status
+    comments
+    attachment
+    status_id
     
 
 
