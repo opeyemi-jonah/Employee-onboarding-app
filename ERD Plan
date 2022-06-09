@@ -5,31 +5,18 @@
 User
 
 - First Name
-
   Last Name
-  
   Email
-  
   image_url
-  
   phone_number
-
   employee_id_Number
-
   department_id
-
-  Team Name
-  
-  job title
-
+  Team_Name
+  job_title
   Date of birth
-
   Employment date
-
-  Role id
-  
-  Manager id
-  
+  Role_id
+  Manager_id
   Task id
   
 
@@ -53,14 +40,25 @@ status
 Task
   - Task_id
     Task_title
-    Start date
-    Due date
+    Start_date
+    Due_date
     Notes
     comments
     attachment
     status_id
     
-
+Position
+  position_id
+  position_title
+  department_id
+ 
+Role
+  role_id
+  role_title
+  
+Permission
+  permission_id
+  permission_title
 
 
 
