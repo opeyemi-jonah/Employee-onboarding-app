@@ -1,0 +1,75 @@
+Actors:
+i) HR
+ii) Employee
+iii) Manager/Supervisor
+
+Roles assignment:
+HR ===> Admin
+Employee ===> Basic User
+Manager ===> Super User
+
+permission:
+create, delete, view, update
+
+Role permission:
+
+
+Actions:
+Admin:
+    User operation
+    - Create User
+    - Edit User
+    - Delete User
+    - View User
+    Task operation
+    - Create task
+    - Edit task
+    - Delete task
+    - View task
+
+
+Basic User:
+    - View profile
+    - Edit profile
+    - Update task status
+
+
+Super User:
+    - View User
+    - View profile
+    - Edit profile
+    - Create task
+    - Edit task
+    - Delete task
+    - View task
+    - 
+
+
+
+
+User story
+HR
+As an HR I want to create tasks
+As an HR I want to assign task to users
+As an HR I want to view all users and their tasks with progress
+As an HR I want to delete task assigned to sepcific users
+As an HR I want to delete all tasks created
+As an HR I want to see the due date of each task
+As an HR I want to send email reminders to users to complete their tasks
+As an HR I want to activate or deactivate a user's employee status.
+As an HR I want to get reminders of due dates that are 3,2,1 days due.
+
+Manager/Supervisor
+As a Supervisor I want to create and assign tasks to users under me.
+As a Supervisor I want to view tasks assigned to each user under me.
+As a Supervisor I want to update user's task status of users under me.
+As a Supervisor I want to be able to view all users under me.
+As a Supervisor I want to group my tasks with a title.
+As a Supervisor I would like to receive a notification once a user under me completes all their tasks.
+
+Employee
+As an employee I want to be able to see all my taskt with due dates
+As an employee I want to be able to view and edit my profile
+An an employee I want to mark my task complete
+As an employee I want to be able to send my Supervisor and HR a notification that my task are complete.
+
